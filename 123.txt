@@ -1,0 +1,17 @@
+1)создали файл 123
+создали гит 
+добавили файл в гит и сделали комит
+заполняем данные Маил и имя
+..................................
+cd /user/home
+git init
+git add .
+git commit -m 'commit1'
+git config --global user.email "resident7744@mail.ru"
+git config --global user.name "kennedi"
+
+2)создаем ветку
+создаем комит
+...............................
+git branch -M mains
+git commit -m 'commit2'
