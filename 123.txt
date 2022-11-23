@@ -12,6 +12,10 @@ git config --global user.name "kennedi"
 
 2)создаем ветку
 создаем комит
+делаем локальный репозиторий - удаленным
 ...............................
 git branch -M mains
+git add .
 git commit -m 'commit2'
+git remote add origin2 https://github.com/Kennedi13/homework7.git
+git push -u origin2 main
